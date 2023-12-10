@@ -1,0 +1,92 @@
+.password-listItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  height: 122px;
+  width: 300px;
+  border: 1px #94a3b8 solid;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-right: 200px;
+}
+
+.starting-letter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: 'roboto';
+  font-size: 24px;
+  font-weight: 400;
+  height: 55px;
+  width: 55px;
+  border-radius: 35px;
+  border: none;
+  margin-left: 15px;
+}
+
+.users-passWard {
+  display: flex;
+  flex-direction: column;
+  height: 90px;
+  margin-left: 2px;
+  margin-right: 60px;
+  margin-top: 20px;
+}
+
+.users-website {
+  color: #ffffff;
+  font-family: 'roboto';
+  font-size: 17px;
+  font-weight: 400;
+  margin: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.users-name {
+  color: #ffffff;
+  font-family: 'roboto';
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.users-password {
+  color: #ffffff;
+  font-family: 'roboto';
+  font-size: 15px;
+  width: 100px;
+  font-weight: 400;
+  margin: 0px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.delete-image {
+  height: 25px;
+  width: 25px;
+  margin-right: 20px;
+}
+
+.no-password-image-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.no-passwords-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+}
